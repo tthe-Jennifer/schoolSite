@@ -3,6 +3,11 @@
     border-bottom: 1px solid black;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+
 /* Dropdown Button */
 .dropbtn {
     background-color: #04AA6D;
