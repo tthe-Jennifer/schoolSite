@@ -436,10 +436,30 @@ body {
     }
 }
 
+@media(max-width: 768px) {
+
+    .scndpg {
+        height: 70vh;
+    }
+
+    .scndpg video {
+        margin: 4vh 25%;
+    }
+
+    .secondpage {
+        height: 280vh;
+    }
+
+    .class-div {
+        flex-direction: column;
+        width: 90%;
+    }
+}
+
 @media(max-width: 2000px) {
 
     .secondpage {
-        height: 100vh;
+        height: 110vh;
     }
 
     #survey-form fieldset {
@@ -477,7 +497,7 @@ body {
     }
 }
 
-@media(max-width: 650px) {
+@media(max-width: 375px) {
 
     #show {
         height: 100vh;
